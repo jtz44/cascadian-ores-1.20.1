@@ -6,11 +6,15 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.jtz.cascadianores.CascadianOres;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    public static final Item TESTIUM_PICKAXE = registerItem("testium_pickaxe",
+            new PickaxeItem(ModToolMaterial.TESTIUM_INGOT, 2 , 1f, new FabricItemSettings()));
+
     public static final Item PERIDOT = registerItem("peridot", new Item(new FabricItemSettings()));
     public static final Item TESTIUM_INGOT = registerItem("testium_ingot", new Item(new FabricItemSettings()));
     public static final Item TESTIUM_NUGGET = registerItem("testium_nugget", new Item(new FabricItemSettings()));

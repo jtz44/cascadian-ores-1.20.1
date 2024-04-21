@@ -5,7 +5,8 @@
   "experience": 0.7,
   "group": "iron_ingot",
   "ingredient": {
-    "item": "minecraft:raw_testium"
+    "item": "cascadian-ores:raw_testium"
   },
-  "result": "minecraft:testium_ingot"
+  "result": "cascadian-ores:testium_ingot"
 }
+
