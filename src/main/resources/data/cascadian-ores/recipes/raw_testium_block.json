@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cascadian-ores:raw_testium"
+    }
+  },
+  "result": {
+    "item": "cascadian-ores:raw_testium_block"
+  }
+}

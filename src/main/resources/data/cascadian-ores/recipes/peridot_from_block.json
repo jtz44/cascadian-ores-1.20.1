@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "cascadian-ores:peridot_block"
+    }
+  ],
+  "result": {
+    "item": "cascadian-ores:peridot",
+    "count": 9
+  }
+}

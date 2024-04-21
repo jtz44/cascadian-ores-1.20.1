@@ -1,0 +1,15 @@
+{
+  "item.cascadian-ores.peridot": "Peridot",
+  "item.cascadian-ores.testium_ingot": "Testium Ingot",
+  "item.cascadian-ores.testium_nugget": "Testium Nugget",
+  "item.cascadian-ores.raw_testium": "Raw Testium",
+
+
+
+  "block.cascadian-ores.peridot_block": "Block of Peridot",
+  "block.cascadian-ores.testium_block": "Block of Testium",
+  "block.cascadian-ores.raw_testium_block": "Block of Raw Testium",
+  "block.cascadian-ores.testium_ore": "Testium Ore",
+
+  "itemgroup.cascadian_ores": "Cascadian Ores"
+}

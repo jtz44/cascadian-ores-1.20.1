@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cascadian-ores:testium_nugget"
+    }
+  },
+  "result": {
+    "item": "cascadian-ores:testium_ingot"
+  }
+}
