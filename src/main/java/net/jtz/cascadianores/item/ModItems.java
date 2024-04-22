@@ -21,6 +21,15 @@ public class ModItems {
     public static final Item TESTIUM_HOE = registerItem("testium_hoe",
             new HoeItem(ModToolMaterial.TESTIUM_INGOT, -2, -1, new FabricItemSettings()));
 
+    public static final Item TESTIUM_HELMET = registerItem("testium_helmet",
+            new ArmorItem(ModArmorMaterials.TESTIUM_INGOT, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item TESTIUM_CHESTPLATE = registerItem("testium_chestplate",
+            new ArmorItem(ModArmorMaterials.TESTIUM_INGOT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item TESTIUM_LEGGINGS = registerItem("testium_leggings",
+            new ArmorItem(ModArmorMaterials.TESTIUM_INGOT, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item TESTIUM_BOOTS = registerItem("testium_boots",
+            new ArmorItem(ModArmorMaterials.TESTIUM_INGOT, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     public static final Item PERIDOT = registerItem("peridot", new Item(new FabricItemSettings()));
     public static final Item TESTIUM_INGOT = registerItem("testium_ingot", new Item(new FabricItemSettings()));
     public static final Item TESTIUM_NUGGET = registerItem("testium_nugget", new Item(new FabricItemSettings()));

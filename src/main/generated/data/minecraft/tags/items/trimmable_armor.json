@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "cascadian-ores:testium_helmet",
+    "cascadian-ores:testium_chestplate",
+    "cascadian-ores:testium_leggings",
+    "cascadian-ores:testium_boots"
+  ]
+}

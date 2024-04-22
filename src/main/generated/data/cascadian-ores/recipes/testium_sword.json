@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "cascadian-ores:testium_ingot"
+    }
+  },
+  "pattern": [
+    " T ",
+    " T ",
+    " S "
+  ],
+  "result": {
+    "item": "cascadian-ores:testium_sword"
+  },
+  "show_notification": true
+}

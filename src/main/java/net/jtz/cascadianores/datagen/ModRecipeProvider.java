@@ -28,8 +28,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PERIDOT, RecipeCategory.DECORATIONS, ModBlocks.PERIDOT_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.TESTIUM_INGOT, RecipeCategory.DECORATIONS, ModBlocks.TESTIUM_BLOCK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.TESTIUM_NUGGET, RecipeCategory.MISC, ModItems.TESTIUM_INGOT);
+        //offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.TESTIUM_NUGGET, RecipeCategory.MISC, ModItems.TESTIUM_INGOT);
+        //offerCompactingRecipe(exporter, RecipeCategory.MISC, (ItemConvertible) ModItems.TESTIUM_NUGGET, (ItemConvertible) ModItems.TESTIUM_INGOT, "testium_nugget_to_ingot");
+        //offerShapelessRecipe(exporter, RecipeCategory.MISC );
 
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TESTIUM_SWORD, 1)
+                .pattern(" T ")
+                .pattern(" T ")
+                .pattern(" S ")
+                .input('T', ModItems.TESTIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.TESTIUM_INGOT), conditionsFromItem(ModItems.TESTIUM_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_SWORD)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TESTIUM_PICKAXE, 1)
                 .pattern("TTT")
@@ -40,6 +52,36 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.TESTIUM_INGOT), conditionsFromItem(ModItems.TESTIUM_INGOT))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_PICKAXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TESTIUM_AXE, 1)
+                .pattern("TT ")
+                .pattern("TS ")
+                .pattern(" S ")
+                .input('T', ModItems.TESTIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.TESTIUM_INGOT), conditionsFromItem(ModItems.TESTIUM_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_AXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TESTIUM_SHOVEL, 1)
+                .pattern(" T ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('T', ModItems.TESTIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.TESTIUM_INGOT), conditionsFromItem(ModItems.TESTIUM_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_SHOVEL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TESTIUM_HOE, 1)
+                .pattern("TT ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('T', ModItems.TESTIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.TESTIUM_INGOT), conditionsFromItem(ModItems.TESTIUM_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_HOE)));
 
     }
 }

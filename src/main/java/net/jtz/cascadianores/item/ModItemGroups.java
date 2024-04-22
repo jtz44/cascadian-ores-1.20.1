@@ -23,6 +23,11 @@ public class ModItemGroups {
                         entries.add(ModItems.TESTIUM_SHOVEL);
                         entries.add(ModItems.TESTIUM_HOE);
 
+                        entries.add(ModItems.TESTIUM_HELMET);
+                        entries.add(ModItems.TESTIUM_CHESTPLATE);
+                        entries.add(ModItems.TESTIUM_LEGGINGS);
+                        entries.add(ModItems.TESTIUM_BOOTS);
+
                         entries.add(ModItems.PERIDOT);
                         entries.add(ModItems.TESTIUM_INGOT);
                         entries.add(ModItems.TESTIUM_NUGGET);
