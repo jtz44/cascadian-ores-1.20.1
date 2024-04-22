@@ -21,6 +21,7 @@
   "block.cascadian-ores.testium_block": "Block of Testium",
   "block.cascadian-ores.raw_testium_block": "Block of Raw Testium",
   "block.cascadian-ores.testium_ore": "Testium Ore",
+  "block.cascadian-ores.deepslate_testium_ore": "Deepslate Testium Ore",
 
   "itemgroup.cascadian_ores": "Cascadian Ores"
 }

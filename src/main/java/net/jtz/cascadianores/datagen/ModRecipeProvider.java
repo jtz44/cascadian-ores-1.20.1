@@ -83,6 +83,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_HOE)));
 
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TESTIUM_HELMET, 1)
                 .pattern("TTT")
                 .pattern("T T")

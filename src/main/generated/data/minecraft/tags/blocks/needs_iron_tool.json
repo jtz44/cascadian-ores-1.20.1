@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "cascadian-ores:testium_ore"
+    "cascadian-ores:testium_ore",
+    "cascadian-ores:deepslate_testium_ore"
   ]
 }

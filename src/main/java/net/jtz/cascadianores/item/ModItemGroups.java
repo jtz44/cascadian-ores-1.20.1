@@ -38,6 +38,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TESTIUM_BLOCK);
                         entries.add(ModBlocks.RAW_TESTIUM_BLOCK);
                         entries.add(ModBlocks.TESTIUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TESTIUM_ORE);
 
 
                     }).build());

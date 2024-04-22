@@ -21,6 +21,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
     public static final Block TESTIUM_ORE = registerBlock("testium_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+    public static final Block DEEPSLATE_TESTIUM_ORE = registerBlock("deepslate_testium_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
 
     /*private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(PERIDOT_BLOCK);

@@ -23,7 +23,8 @@ public class ModBlockTagProvider  extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PERIDOT_BLOCK)
                 .add(ModBlocks.TESTIUM_BLOCK)
                 .add(ModBlocks.RAW_TESTIUM_BLOCK)
-                .add(ModBlocks.TESTIUM_ORE);
+                .add(ModBlocks.TESTIUM_ORE)
+                .add(ModBlocks.DEEPSLATE_TESTIUM_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.PERIDOT_BLOCK)
@@ -31,7 +32,8 @@ public class ModBlockTagProvider  extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_TESTIUM_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.TESTIUM_ORE);
+                .add(ModBlocks.TESTIUM_ORE)
+                .add(ModBlocks.DEEPSLATE_TESTIUM_ORE);
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4" )))
                 ;

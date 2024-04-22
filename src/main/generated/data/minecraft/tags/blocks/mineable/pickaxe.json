@@ -4,6 +4,7 @@
     "cascadian-ores:peridot_block",
     "cascadian-ores:testium_block",
     "cascadian-ores:raw_testium_block",
-    "cascadian-ores:testium_ore"
+    "cascadian-ores:testium_ore",
+    "cascadian-ores:deepslate_testium_ore"
   ]
 }
