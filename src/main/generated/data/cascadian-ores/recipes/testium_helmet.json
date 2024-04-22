@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": {
+      "item": "cascadian-ores:testium_ingot"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "T T",
+    "   "
+  ],
+  "result": {
+    "item": "cascadian-ores:testium_helmet"
+  },
+  "show_notification": true
+}

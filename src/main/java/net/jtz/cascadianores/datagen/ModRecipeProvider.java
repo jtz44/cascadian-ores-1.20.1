@@ -83,5 +83,37 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_HOE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TESTIUM_HELMET, 1)
+                .pattern("TTT")
+                .pattern("T T")
+                .pattern("   ")
+                .input('T', ModItems.TESTIUM_INGOT)
+                .criterion(hasItem(ModItems.TESTIUM_INGOT), conditionsFromItem(ModItems.TESTIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TESTIUM_CHESTPLATE, 1)
+                .pattern("T T")
+                .pattern("TTT")
+                .pattern("TTT")
+                .input('T', ModItems.TESTIUM_INGOT)
+                .criterion(hasItem(ModItems.TESTIUM_INGOT), conditionsFromItem(ModItems.TESTIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TESTIUM_LEGGINGS, 1)
+                .pattern("TTT")
+                .pattern("T T")
+                .pattern("T T")
+                .input('T', ModItems.TESTIUM_INGOT)
+                .criterion(hasItem(ModItems.TESTIUM_INGOT), conditionsFromItem(ModItems.TESTIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TESTIUM_BOOTS, 1)
+                .pattern("   ")
+                .pattern("T T")
+                .pattern("T T")
+                .input('T', ModItems.TESTIUM_INGOT)
+                .criterion(hasItem(ModItems.TESTIUM_INGOT), conditionsFromItem(ModItems.TESTIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TESTIUM_BOOTS)));
+
     }
 }
