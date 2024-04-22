@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.jtz.cascadianores.block.ModBlocks;
 import net.jtz.cascadianores.item.ModItemGroups;
 import net.jtz.cascadianores.item.ModItems;
+import net.jtz.cascadianores.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +18,6 @@ public class CascadianOres implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
