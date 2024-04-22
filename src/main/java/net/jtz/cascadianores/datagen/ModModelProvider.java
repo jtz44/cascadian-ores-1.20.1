@@ -20,6 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TESTIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TESTIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TESTIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TESTIUM_ORE);
 
     }
 

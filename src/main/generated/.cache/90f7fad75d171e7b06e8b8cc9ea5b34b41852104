@@ -1,4 +1,4 @@
-// 1.20.1	2024-04-22T16:54:48.4454088	Cascadian Ores/Recipes
+// 1.20.1	2024-04-22T17:03:29.379147	Cascadian Ores/Recipes
 a923b7ac97ea8fb9dc4f6053f1f0d118c6c90c94 data\cascadian-ores\recipes\testium_axe.json
 14c801feb20e7a6ed8d365fc917c41b6f94e5664 data\cascadian-ores\recipes\testium_hoe.json
 dd090f20a099f4e5bc13c384fcc1d76e1cab62c8 data\cascadian-ores\recipes\testium_helmet.json
@@ -12,8 +12,8 @@ b17e92f304856ece4bfc856cde220ae616b29432 data\cascadian-ores\recipes\testium_leg
 c2da18af4508827db5a8ca27c6e1019d7e50687e data\cascadian-ores\recipes\testium_shovel.json
 902d7fae82dd7d4b95bd82e9a7d437042a89a502 data\cascadian-ores\recipes\testium_pickaxe.json
 a39f1a7e4d51c29596a1da2642dd942f2ea9b861 data\cascadian-ores\recipes\testium_ingot.json
-89a0bbee2f0191111bbefca1affc08d00a48f252 data\cascadian-ores\recipes\testium_ingot_from_smelting_testium_ore.json
 036cdb815f81980583948cbfa38e351e7213a6b8 data\cascadian-ores\recipes\testium_ingot_from_blasting_raw_testium.json
+89a0bbee2f0191111bbefca1affc08d00a48f252 data\cascadian-ores\recipes\testium_ingot_from_smelting_testium_ore.json
 536de87ee9a6ed30b460423eb85fb4e966984519 data\cascadian-ores\advancements\recipes\tools\testium_hoe.json
 7d33a387afe5df44cbc59ce9818f720c7a9fdabe data\cascadian-ores\advancements\recipes\combat\testium_leggings.json
 e4b27d33ca10d9803faba877059d798837234913 data\cascadian-ores\advancements\recipes\building_blocks\peridot.json
@@ -28,8 +28,8 @@ a008c46ed1a0378d43f1776797f21f3ce461190c data\cascadian-ores\advancements\recipe
 2755e61f1f74ebb1dff31e21fb2a3b7851db7d19 data\cascadian-ores\recipes\testium_block.json
 e57657ddf1d97c6d92ae4f06005f10813c0890d3 data\cascadian-ores\advancements\recipes\tools\testium_pickaxe.json
 5502f136e806f8edced864d2ecfcbbf773a0c983 data\cascadian-ores\recipes\testium_chestplate.json
-484b92caff6ca78a326c49e86452408277cca0ec data\cascadian-ores\advancements\recipes\misc\testium_ingot_from_smelting_raw_testium.json
 f02c33edc68ad4ff30ee78755bb2ee00cfc59a0b data\cascadian-ores\recipes\testium_ingot_from_blasting_testium_ore.json
+484b92caff6ca78a326c49e86452408277cca0ec data\cascadian-ores\advancements\recipes\misc\testium_ingot_from_smelting_raw_testium.json
 bb82d8bce6209a8bf21f8010c408ea3ea50b5c10 data\cascadian-ores\advancements\recipes\tools\testium_axe.json
 e04044d0de370e693a79f3b98b57ca37086ed60a data\cascadian-ores\advancements\recipes\tools\testium_shovel.json
 e0e304356a45d3ee7f87b555bafdd986d0d54235 data\cascadian-ores\advancements\recipes\misc\testium_ingot_from_smelting_testium_ore.json
