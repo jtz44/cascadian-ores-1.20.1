@@ -17,6 +17,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_TESTIUM_BLOCK);
 
         addDrop(ModBlocks.TESTIUM_ORE, oreDrops(ModBlocks.TESTIUM_ORE, ModItems.RAW_TESTIUM));
+        addDrop(ModBlocks.DEEPSLATE_TESTIUM_ORE, oreDrops(ModBlocks.DEEPSLATE_TESTIUM_ORE, ModItems.RAW_TESTIUM));
 
     }
 }
