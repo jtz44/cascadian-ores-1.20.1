@@ -17,7 +17,11 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.cascadian_ores"))
                     .icon(() -> new ItemStack(ModItems.PERIDOT)).entries((displayContext, entries) -> {
 
+                        entries.add(ModItems.TESTIUM_SWORD);
                         entries.add(ModItems.TESTIUM_PICKAXE);
+                        entries.add(ModItems.TESTIUM_AXE);
+                        entries.add(ModItems.TESTIUM_SHOVEL);
+                        entries.add(ModItems.TESTIUM_HOE);
 
                         entries.add(ModItems.PERIDOT);
                         entries.add(ModItems.TESTIUM_INGOT);

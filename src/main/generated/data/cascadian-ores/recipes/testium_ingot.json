@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "cascadian-ores:testium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cascadian-ores:testium_ingot"
+  }
+}

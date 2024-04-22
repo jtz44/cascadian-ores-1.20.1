@@ -1,0 +1,5 @@
+// 1.20.1	2024-04-22T10:34:10.0921085	Cascadian Ores/Tags for minecraft:block
+bce10b306956c3500465aca35fba123cb9d18d53 data\minecraft\tags\blocks\needs_stone_tool.json
+d13c5eac21f92a7e3255b9ef3b90b9b7208b8e87 data\minecraft\tags\blocks\mineable\pickaxe.json
+dd1f56e614a64fb124555a3ac5202f89a1a2d614 data\minecraft\tags\blocks\needs_iron_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json

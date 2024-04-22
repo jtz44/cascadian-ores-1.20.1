@@ -1,0 +1,5 @@
+// 1.20.1	2024-04-22T10:34:10.09111	Cascadian Ores/Block Loot Tables
+d561a6c8c8b7018a4ea29e33559d2b5de4e98f4b data\cascadian-ores\loot_tables\blocks\testium_ore.json
+84aab1c0a18690d50145fd0ad7f6e688328a8d33 data\cascadian-ores\loot_tables\blocks\raw_testium_block.json
+8b4e3327ed38d1cb21f4ecf7a56bff236926adec data\cascadian-ores\loot_tables\blocks\peridot_block.json
+c775604e1da31d26f69c428bbe9515eb91c6e311 data\cascadian-ores\loot_tables\blocks\testium_block.json

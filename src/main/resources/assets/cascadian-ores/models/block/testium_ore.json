@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cascadian-ores:block/testium_ore"
-  }
-}

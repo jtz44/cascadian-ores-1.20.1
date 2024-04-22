@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    TESTIUM_INGOT(3, 650, 4.5f, 3.5f, 26,
+    TESTIUM_INGOT(3, 250, 6f, 2f, 14,
             () -> Ingredient.ofItems(ModItems.TESTIUM_INGOT));
 
     private final int miningLevel;

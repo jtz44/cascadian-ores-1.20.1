@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "testium_ingot",
+  "ingredient": {
+    "item": "cascadian-ores:testium_ore"
+  },
+  "result": "cascadian-ores:testium_ingot"
+}

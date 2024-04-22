@@ -1,5 +1,9 @@
 {
+  "item.cascadian-ores.testium_sword": "Testium Sword",
   "item.cascadian-ores.testium_pickaxe": "Testium Pickaxe",
+  "item.cascadian-ores.testium_axe": "Testium Axe",
+  "item.cascadian-ores.testium_shovel": "Testium Shovel",
+  "item.cascadian-ores.testium_hoe": "Testium Hoe",
 
   "item.cascadian-ores.peridot": "Peridot",
   "item.cascadian-ores.testium_ingot": "Testium Ingot",
