@@ -34,6 +34,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_TESTIUM);
 
                         entries.add(ModItems.CUBERRY);
+                        entries.add(ModItems.CUBERRY_SEEDS);
 
                         entries.add(ModBlocks.PERIDOT_BLOCK);
                         entries.add(ModBlocks.TESTIUM_BLOCK);

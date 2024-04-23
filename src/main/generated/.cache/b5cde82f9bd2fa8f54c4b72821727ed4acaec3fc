@@ -1,4 +1,4 @@
-// 1.20.1	2024-04-23T15:05:49.4266959	Cascadian Ores/Model Definitions
+// 1.20.1	2024-04-23T16:06:46.4685403	Cascadian Ores/Model Definitions
 e4a4fb84be0a4c217162023342185f4173df9173 assets\cascadian-ores\models\item\testium_chestplate_diamond_trim.json
 c3c3d8094f6dbd80816e36043275045a729829de assets\cascadian-ores\models\item\testium_boots_emerald_trim.json
 95b919113418c7c61e374c7a9e011fa523af5a3c assets\cascadian-ores\models\item\peridot.json
@@ -10,6 +10,7 @@ f5dd90dc138ba5a9edc1a63d55de074f39148e3e assets\cascadian-ores\models\item\testi
 c5c2f1cbae55f4a39670e65ee9e5d52a0cdbc587 assets\cascadian-ores\models\item\testium_block.json
 f78a341fcc305495a70a3172878b40bbc79db67d assets\cascadian-ores\models\item\testium_leggings_iron_trim.json
 cca3cfdbdd2caed31ce6b7fad5dfdb3b73dcbabb assets\cascadian-ores\models\item\testium_boots_gold_trim.json
+4bde9bfe535dacc6c070ae5a9966d005553e9624 assets\cascadian-ores\models\block\cuberry_crop_stage0.json
 4c913b0ba4b14d38ec087b30b15ce5904e1c3d89 assets\cascadian-ores\models\item\testium_boots_redstone_trim.json
 d9609be974d87bcce56ca9a00424985076dbb935 assets\cascadian-ores\models\item\raw_testium.json
 1e24b05c9229469870ae32758a8dd5e72e035f46 assets\cascadian-ores\models\block\deepslate_testium_ore.json
@@ -22,9 +23,11 @@ f883a194e75f7a4ff71ead7e7e86c7498a1e0114 assets\cascadian-ores\models\item\testi
 683ead4f14d9f05f14603c9c650247c85f305a90 assets\cascadian-ores\models\item\testium_chestplate_iron_trim.json
 8bd373fa08c9ece59f8ff21f6044682b4046bbe2 assets\cascadian-ores\models\item\testium_chestplate.json
 51a35ad456ff9e61b133c7e3fb35ad011fda1ea5 assets\cascadian-ores\models\item\testium_helmet_amethyst_trim.json
+c1d913847fbc9d490a12926f5605ef5f0ad40a95 assets\cascadian-ores\models\block\cuberry_crop_stage2.json
 08f0b7c4876c553e97c97bab247480752578c8b4 assets\cascadian-ores\models\item\testium_leggings_diamond_trim.json
 5ed31febc9110e621f5b57ef9f07f7b9754ff97d assets\cascadian-ores\models\item\testium_leggings.json
 baacffe80d00d06a903dd27f194bcea8473e31a1 assets\cascadian-ores\blockstates\peridot_block.json
+57a25ad0ff27f749c301a7e1b4d727b291d8920b assets\cascadian-ores\models\block\cuberry_crop_stage5.json
 c769349d60a173d340861f36c960f8dbbe922bae assets\cascadian-ores\models\item\testium_chestplate_gold_trim.json
 5474ac79d69443879f10df96cf18e648d0115e5c assets\cascadian-ores\models\block\testium_ore.json
 706f5bcb0f0c50d68d8f3aa1f94197c0ed24f75f assets\cascadian-ores\models\item\testium_helmet.json
@@ -36,12 +39,15 @@ c769349d60a173d340861f36c960f8dbbe922bae assets\cascadian-ores\models\item\testi
 d556a2abe0394b0b0a603ed96c0d468225328f70 assets\cascadian-ores\blockstates\testium_block.json
 6a58922242fa9e1d1ce491188f609b5e9d4f8178 assets\cascadian-ores\models\item\testium_ingot.json
 a86bc61f02b183db92d6d0bf908d98ecf413efce assets\cascadian-ores\models\item\testium_chestplate_quartz_trim.json
+e6b68a16f3cd6844340431be520e821aa19ad5d5 assets\cascadian-ores\models\item\cuberry_seeds.json
 205231237b277dfbfc74635ca5515ba181b2dfab assets\cascadian-ores\models\item\testium_leggings_quartz_trim.json
 47f40ab35bd5066b04a1434f7c9acb9537480bcc assets\cascadian-ores\models\item\testium_helmet_lapis_trim.json
 9eaeb523b120fd81a7e165205f7b60435c51cf22 assets\cascadian-ores\models\item\deepslate_testium_ore.json
 4d5a873b4567bb4c7196391e4b6c719d7dfc2c09 assets\cascadian-ores\models\item\testium_helmet_gold_trim.json
 8ebe52463494437aa6cfc59372f5b025bac15c69 assets\cascadian-ores\models\item\testium_hoe.json
 4da7cf1ea394f7180c786d6803c5142325d25d65 assets\cascadian-ores\models\item\testium_boots_lapis_trim.json
+eefeb53623425861400259ce18afe603274f7890 assets\cascadian-ores\blockstates\cuberry_crop.json
+d8c2c3644adc1b93b199111efc066469d573ac6d assets\cascadian-ores\models\block\cuberry_crop_stage3.json
 1093529bb7d3108bbae503076aea3f050c2c9ba0 assets\cascadian-ores\models\item\testium_chestplate_emerald_trim.json
 b2f7dc9f7c039706932bfd6c243571ecf2f34bc5 assets\cascadian-ores\models\item\testium_chestplate_netherite_trim.json
 bc53bc86c9b60316c5a5f4a6083dbc503036d93d assets\cascadian-ores\models\block\peridot_block.json
@@ -58,7 +64,9 @@ dfc6e54d89401cce8224fa5870640b051ec89456 assets\cascadian-ores\blockstates\deeps
 f5afff0dbae72af4ffcbc5517c7d121430ac0891 assets\cascadian-ores\models\item\testium_chestplate_redstone_trim.json
 b025aed305b22658d92ef19dd70331aef120cb55 assets\cascadian-ores\models\item\testium_boots_quartz_trim.json
 302100b0b5cf1d77bdcf0a031282b460793db5c4 assets\cascadian-ores\models\item\cuberry.json
+135566bd7b3acd27a5246ef88027cacf9a06ffa7 assets\cascadian-ores\models\block\cuberry_crop_stage4.json
 209e53c271f2dfd5ed0ce40e18e38b2ae001b9a8 assets\cascadian-ores\models\item\testium_helmet_emerald_trim.json
+83a4491c8032d0aa218f3ab4d352a742b2b3e9f3 assets\cascadian-ores\models\block\cuberry_crop_stage1.json
 1bc473ee500d5bacf5a892f2e78d37f0f4067bed assets\cascadian-ores\models\item\testium_helmet_netherite_trim.json
 ef356dc777e335de7023f5a6b2f1a48b8945015c assets\cascadian-ores\models\item\testium_boots_amethyst_trim.json
 9f81032b7d292eb969e4aa03d9209d960d0243e4 assets\cascadian-ores\models\item\testium_chestplate_lapis_trim.json

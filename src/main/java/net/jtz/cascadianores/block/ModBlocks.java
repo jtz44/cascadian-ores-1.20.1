@@ -3,6 +3,7 @@ package net.jtz.cascadianores.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.jtz.cascadianores.CascadianOres;
+import net.jtz.cascadianores.block.custom.CuberryCropBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -23,6 +24,9 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
     public static final Block DEEPSLATE_TESTIUM_ORE = registerBlock("deepslate_testium_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+
+    public static final Block CUBERRY_CROP = Registry.register(Registries.BLOCK, new Identifier(CascadianOres.MOD_ID, "cuberry_crop"),
+            new CuberryCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));
 
     /*private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(PERIDOT_BLOCK);

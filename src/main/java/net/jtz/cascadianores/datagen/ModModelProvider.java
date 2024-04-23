@@ -3,6 +3,7 @@ package net.jtz.cascadianores.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.jtz.cascadianores.block.ModBlocks;
+import net.jtz.cascadianores.block.custom.CuberryCropBlock;
 import net.jtz.cascadianores.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -21,6 +22,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TESTIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TESTIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TESTIUM_ORE);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.CUBERRY_CROP, CuberryCropBlock.AGE, 0, 1, 2, 3, 4, 5);
 
     }
 
@@ -44,6 +47,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_TESTIUM, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CUBERRY, Models.GENERATED);
+
 
 
 

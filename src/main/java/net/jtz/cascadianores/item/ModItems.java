@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.jtz.cascadianores.CascadianOres;
+import net.jtz.cascadianores.block.ModBlocks;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -36,6 +37,8 @@ public class ModItems {
     public static final Item RAW_TESTIUM = registerItem("raw_testium", new Item(new FabricItemSettings()));
 
     public static final Item CUBERRY = registerItem("cuberry", new Item(new FabricItemSettings().food(ModFoodComponents.CUBERRRY)));
+    public static final Item CUBERRY_SEEDS = registerItem("cuberry_seeds",
+            new AliasedBlockItem(ModBlocks.CUBERRY_CROP, new FabricItemSettings()));
 
     /*private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(PERIDOT);
