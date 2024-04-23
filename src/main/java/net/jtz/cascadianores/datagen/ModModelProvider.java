@@ -43,6 +43,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TESTIUM_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_TESTIUM, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.CUBERRY, Models.GENERATED);
+
 
 
     }

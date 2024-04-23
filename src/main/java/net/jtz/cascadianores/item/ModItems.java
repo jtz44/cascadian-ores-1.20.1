@@ -35,6 +35,8 @@ public class ModItems {
     public static final Item TESTIUM_NUGGET = registerItem("testium_nugget", new Item(new FabricItemSettings()));
     public static final Item RAW_TESTIUM = registerItem("raw_testium", new Item(new FabricItemSettings()));
 
+    public static final Item CUBERRY = registerItem("cuberry", new Item(new FabricItemSettings().food(ModFoodComponents.CUBERRRY)));
+
     /*private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(PERIDOT);
     }*/

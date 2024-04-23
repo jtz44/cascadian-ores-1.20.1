@@ -1,5 +1,5 @@
-// 1.20.1	2024-04-22T17:03:29.3801477	Cascadian Ores/Tags for minecraft:block
-79a2c5b3e7a35f0f4ab3e173f18dd51240016618 data\minecraft\tags\blocks\needs_iron_tool.json
-bce10b306956c3500465aca35fba123cb9d18d53 data\minecraft\tags\blocks\needs_stone_tool.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
+// 1.20.1	2024-04-23T15:05:49.4316958	Cascadian Ores/Tags for minecraft:block
 26e93f16ac07fa34bfa1f62f000e0192aa14529a data\minecraft\tags\blocks\mineable\pickaxe.json
+bce10b306956c3500465aca35fba123cb9d18d53 data\minecraft\tags\blocks\needs_stone_tool.json
+79a2c5b3e7a35f0f4ab3e173f18dd51240016618 data\minecraft\tags\blocks\needs_iron_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
