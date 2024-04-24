@@ -26,7 +26,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
 
     public static final Block CUBERRY_CROP = Registry.register(Registries.BLOCK, new Identifier(CascadianOres.MOD_ID, "cuberry_crop"),
-            new CuberryCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));
+            new CuberryCropBlock(FabricBlockSettings.copy(Blocks.SWEET_BERRY_BUSH)));
 
     /*private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(PERIDOT_BLOCK);
